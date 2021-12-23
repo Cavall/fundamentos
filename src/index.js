@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 ReactDOM.render(
-  <div> Tudo bem com react</div>,
+  <div>
+    <strong>Tudo bem com react</strong>
+  </div>,
   document.getElementById("root")
 );
