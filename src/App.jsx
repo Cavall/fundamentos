@@ -1,22 +1,19 @@
 import React from "react";
 import Primeiro from "./components/basicos/Primeiro";
 import PrimeiroComParametros from "./components/basicos/PrimeiroComParametros";
-import Fragmento from "./components/basicos/Fragmentos";
 import Fragmentos from "./components/basicos/Fragmentos";
 
-export default function App(props) {
-  return (
-    <div id="app">
-      <h1>FUNDAMENTOS REACT COM COMPONENTE APP</h1>
-      <Fragmentos></Fragmentos>
+export default () => (
+  <div id="app">
+    <h1>FUNDAMENTOS REACT COM COMPONENTE APP E ARROW FUNCTION</h1>
+    <Fragmentos />
 
-      <PrimeiroComParametros
-        titulo="Situação do Aluno"
-        aluno="Antonio "
-        nota={9.4}
-      />
+    <PrimeiroComParametros
+      titulo="Situação do Aluno"
+      aluno="Antonio "
+      nota={9.4}
+    />
 
-      <Primeiro></Primeiro>
-    </div>
-  );
-}
+    <Primeiro />
+  </div>
+);
