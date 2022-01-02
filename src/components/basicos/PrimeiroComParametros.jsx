@@ -5,7 +5,7 @@ export default function PrimeiroComParametros(props) {
   const status = props.nota >= 7 ? " Aprovado" : " Em Recuperação";
   return (
     <div>
-      "Os dados abaixo viram das propriedades:"
+      "==Os dados abaixo viram das propriedades:"
       <h2> {props.titulo}</h2>
       <p>
         <strong> {props.aluno}</strong>
