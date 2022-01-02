@@ -13,12 +13,20 @@ export default () => (
       <Aleatorio min={1} max={100} />
     </Card>
 
-    <Fragmentos />
-    <PrimeiroComParametros
-      titulo="Situação do Aluno"
-      aluno="Antonio "
-      nota={9.4}
-    />
-    <Primeiro />
+    <Card titulo="Fragmento">
+      <Fragmentos />
+    </Card>
+
+    <Card titulo="Primeiro Com Parametros">
+      <PrimeiroComParametros
+        titulo="Situação do Aluno"
+        aluno="Antonio "
+        nota={9.4}
+      />
+    </Card>
+
+    <Card titulo="Primeiro Componente">
+      <Primeiro />
+    </Card>
   </div>
 );
