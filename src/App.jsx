@@ -9,16 +9,16 @@ export default () => (
   <div id="app">
     <h1>FUNDAMENTOS REACT</h1>
 
-    <Card></Card>
-    <Aleatorio min={1} max={100} />
-    <Fragmentos />
+    <Card titulo="Desafio Aleatório">
+      <Aleatorio min={1} max={100} />
+    </Card>
 
+    <Fragmentos />
     <PrimeiroComParametros
       titulo="Situação do Aluno"
       aluno="Antonio "
       nota={9.4}
     />
-
     <Primeiro />
   </div>
 );
